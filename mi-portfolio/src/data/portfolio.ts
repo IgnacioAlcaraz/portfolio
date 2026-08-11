@@ -96,7 +96,7 @@ export const projects: Project[] = [
     name: "Beacon AI",
     description:
       "CRM inmobiliario que cubre el embudo de contactos, captaciones, cierres, objetivos anuales, trackeo de actividad diaria y dashboards de equipo, con tres roles (vendedor, encargado y admin). Encima corren dos agentes de IA construidos con LangGraph que responden por chat en lenguaje natural sobre esos datos: uno acotado a los datos del vendedor y otro al equipo del encargado, cada uno con su propio set de tools y respuesta en streaming.",
-    tags: ["JavaScript", "Node.js", "Express", "React", "LangGraph"],
+    tags: ["React", "Node.js", "Express", "PostgreSQL", "LangGraph"],
   },
   {
     name: "SubastasPlus",
@@ -104,11 +104,9 @@ export const projects: Project[] = [
       "Proyecto universitario: app de subastas de arte en React Native/Expo con backend Node.js/Express y base de datos PostgreSQL (Supabase). Incluye sistema de pujas en tiempo real vía WebSockets con control de concurrencia, verificación de identidad y un flujo completo de compra-venta con seguros, sobre una API REST de más de 30 endpoints.",
     tags: [
       "React Native",
-      "Expo",
       "Node.js",
       "Express",
       "PostgreSQL",
-      "Supabase",
       "WebSockets",
     ],
   },
@@ -116,7 +114,7 @@ export const projects: Project[] = [
     name: "LiftClub",
     description:
       "Proyecto universitario: red social para entrenadores y clientes de gimnasios que actúa como intermediario digital para pactar sesiones de entrenamiento. Incluye carga y gestión de los servicios ofrecidos por los entrenadores, un panel de estadísticas sobre su actividad, visualización de sesiones agendadas con su estado y opción de aceptarlas o rechazarlas, autenticación con Google e integración de pagos mediante la API de Mercado Pago.",
-    tags: ["React", "Node.js", "Mercado Pago API", "Google OAuth"],
+    tags: ["React", "Node.js", "Express", "MongoDB", "Mercado Pago API"],
   },
 ];
 
