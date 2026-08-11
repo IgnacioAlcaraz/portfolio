@@ -79,7 +79,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: "Email",
-    url: "mailto:ignacioalcaraz05@gmail.com",
+    url: "https://mail.google.com/mail/?view=cm&to=ignacioalcaraz05@gmail.com",
     icon: "mail",
   },
 ];
@@ -93,22 +93,30 @@ export const about: string[] = [
 
 export const projects: Project[] = [
   {
-    name: "Agente conversacional para WhatsApp",
+    name: "Beacon AI",
     description:
-      "Arquitectura backend event-driven para un agente de IA sobre WhatsApp Cloud API, con memoria conversacional, recuperación de contexto vía RAG y derivación a operador humano.",
-    tags: ["Python", "LangChain", "LangGraph", "MongoDB", "Docker"],
+      "CRM inmobiliario que cubre el embudo de contactos, captaciones, cierres, objetivos anuales, trackeo de actividad diaria y dashboards de equipo, con tres roles (vendedor, encargado y admin). Encima corren dos agentes de IA construidos con LangGraph que responden por chat en lenguaje natural sobre esos datos: uno acotado a los datos del vendedor y otro al equipo del encargado, cada uno con su propio set de tools y respuesta en streaming.",
+    tags: ["JavaScript", "Node.js", "Express", "React", "LangGraph"],
   },
   {
-    name: "Pipeline de datos automatizado",
+    name: "SubastasPlus",
     description:
-      "Servicio de ingesta y normalización de datos desde múltiples fuentes, con procesamiento por lotes, reintentos y reportes programados hacia base de datos analítica.",
-    tags: ["Python", "PostgreSQL", "REST APIs", "Docker"],
+      "Proyecto universitario: app de subastas de arte en React Native/Expo con backend Node.js/Express y base de datos PostgreSQL (Supabase). Incluye sistema de pujas en tiempo real vía WebSockets con control de concurrencia, verificación de identidad y un flujo completo de compra-venta con seguros, sobre una API REST de más de 30 endpoints.",
+    tags: [
+      "React Native",
+      "Expo",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Supabase",
+      "WebSockets",
+    ],
   },
   {
-    name: "Dashboard interno de gestión",
+    name: "LiftClub",
     description:
-      "Herramienta interna full-stack para visualizar métricas operativas en tiempo real, con API REST propia, autenticación por roles y actualizaciones vía WebSockets.",
-    tags: ["React", "TypeScript", "Node.js", "Express", "Tailwind CSS"],
+      "Proyecto universitario: red social para entrenadores y clientes de gimnasios que actúa como intermediario digital para pactar sesiones de entrenamiento. Incluye carga y gestión de los servicios ofrecidos por los entrenadores, un panel de estadísticas sobre su actividad, visualización de sesiones agendadas con su estado y opción de aceptarlas o rechazarlas, autenticación con Google e integración de pagos mediante la API de Mercado Pago.",
+    tags: ["React", "Node.js", "Mercado Pago API", "Google OAuth"],
   },
 ];
 
