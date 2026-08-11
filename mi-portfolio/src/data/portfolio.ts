@@ -55,7 +55,7 @@ export const profile: Profile = {
   name: "Ignacio Alcaraz",
   role: "Software Developer",
   tagline:
-    "Construyo soluciones escalables con clean code, automatización inteligente e IA.",
+    "Construyo aplicaciones web escalables, con clean code y buenas prácticas de ingeniería.",
 };
 
 export const sections: Section[] = [
@@ -86,9 +86,9 @@ export const socialLinks: SocialLink[] = [
 
 /** Los fragmentos entre **dobles asteriscos** se renderizan destacados. */
 export const about: string[] = [
-  "Soy un desarrollador de software de 21 años basado en Buenos Aires, estudiante avanzado de **Licenciatura en Sistemas** en UADE con 5 materias restantes. Me especializo en diseño de arquitecturas de software, desarrollo backend y automatización inteligente con IA.",
-  "Mi experiencia abarca desde la construcción de **aplicaciones web full-stack** y APIs RESTful hasta el desarrollo de **agentes conversacionales** y sistemas event-driven. Tengo un enfoque marcado en soluciones escalables, clean code y buenas prácticas de ingeniería.",
-  "Actualmente trabajo como freelance diseñando arquitecturas backend para sistemas de IA conversacionales desplegados en WhatsApp, construyendo pipelines de datos automatizados y desarrollando herramientas internas con React y Node.js.",
+  "Soy un desarrollador de software de 21 años basado en Buenos Aires, estudiante avanzado de **Licenciatura en Sistemas** en UADE con 5 materias restantes. Me especializo en **desarrollo full-stack** y diseño de arquitecturas de software escalables.",
+  "Mi experiencia abarca el ciclo completo de una aplicación web: modelado de datos, **APIs REST**, interfaces en React y puesta en producción. Me interesa especialmente la etapa de diseño — elegir la estructura correcta desde el principio para que el proyecto siga siendo fácil de mantener cuando crece.",
+  "Actualmente trabajo como **freelance** desarrollando aplicaciones web a medida con React, Node.js y Express, y sumando capacidades de IA cuando el producto lo justifica.",
 ];
 
 export const projects: Project[] = [
@@ -121,18 +121,11 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     period: "Sep 2025 — Presente",
-    title: "Software Developer & AI Automation Engineer",
+    title: "Software Developer",
     company: "Freelance",
     description:
-      "Diseño de arquitecturas backend para agentes de IA conversacionales en WhatsApp. Desarrollo full-stack con React, Node.js y Python. Construcción de pipelines de datos automatizados y flujos event-driven con webhooks.",
-    tags: [
-      "React",
-      "Node.js",
-      "Python",
-      "MongoDB",
-      "LangChain",
-      "WhatsApp Cloud API",
-    ],
+      "Desarrollo full-stack de aplicaciones web a medida, desde el diseño de la arquitectura hasta el despliegue. Construcción de APIs REST y modelos de datos pensados para escalar, aplicando Clean Architecture, patrones de diseño y principios SOLID para mantener el código desacoplado, testeable y fácil de extender.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Clean Architecture"],
   },
 ];
 
@@ -180,6 +173,16 @@ export const education: Education = {
 };
 
 export const certifications: Certification[] = [
+  {
+    name: "Building with the Claude API",
+    issuer: "Anthropic",
+    date: "May 2026",
+  },
+  {
+    name: "Introduction to Model Context Protocol",
+    issuer: "Anthropic",
+    date: "May 2026",
+  },
   {
     name: "Claude Code in Action",
     issuer: "Anthropic",
