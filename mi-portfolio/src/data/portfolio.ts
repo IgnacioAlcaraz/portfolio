@@ -125,7 +125,14 @@ export const experiences: Experience[] = [
     company: "Freelance",
     description:
       "Diseño de arquitecturas backend para agentes de IA conversacionales en WhatsApp. Desarrollo full-stack con React, Node.js y Python. Construcción de pipelines de datos automatizados y flujos event-driven con webhooks.",
-    tags: ["Python", "React", "Node.js", "LangChain", "Docker", "MongoDB"],
+    tags: [
+      "React",
+      "Node.js",
+      "Python",
+      "MongoDB",
+      "LangChain",
+      "WhatsApp Cloud API",
+    ],
   },
 ];
 
